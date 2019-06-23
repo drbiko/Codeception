@@ -1,5 +1,5 @@
 {
-    "name":"codeception/codeception",
+    "name":"drbiko/codeception",
     "description":"BDD-style testing framework",
     "keywords":["BDD", "acceptance testing", "functional testing", "unit testing", "tdd"],
     "homepage":"http://codeception.com/",
@@ -10,6 +10,10 @@
             "name":"Michael Bodnarchuk",
             "email":"davert@mail.ua",
             "homepage":"http://codegyre.com"
+        },
+        {
+            "name":"Biko Allen",
+            "email":"biko@docresponse.com"
         }
     ],
     "minimum-stability": "RC",
