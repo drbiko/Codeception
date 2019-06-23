@@ -77,7 +77,7 @@ class RunProcess extends Extension
             if (!is_int($key)) {
                 continue; // configuration options
             }
-            $process = new Process($command, $this->getRootDir(), null, null, null);
+            $process = Process::fromShellCommandline($command, $this->getRootDir(), null, null, null);
             $process->start();
             $this->processes[] = $process;
             $this->output->debug('[RunProcess] Starting '.$command);
