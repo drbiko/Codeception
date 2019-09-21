@@ -23,7 +23,7 @@ RUN docker-php-ext-install \
 RUN pecl install \
         mongodb \
         apcu \
-        xdebug-2.7.1 && \
+        xdebug-2.7.2 && \
     docker-php-ext-enable \
         apcu.so \
         mongodb.so \
